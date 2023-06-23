@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Trabalhe conosco - Hospital</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+  <!--Responsivo-->
+  <h1>Trabalhe conosco</h1>
+  <h2>Deixe seu curriculo!</h2>
+  <form target="_blank" action="authcurriculo.php" method="POST" enctype="multipart/form-data">
+    <div>
+      <label for="name">Nome completo:</label>
+      <input type="text" name="name" placeholder="Nome completo" required />
+    </div>
+
+    <div>
+      <label for="email">E-mail:</label>
+      <input type="email" name="email" placeholder="E-mail" required />
+    </div>
+
+    <div>
+      <label for="area">Área de Interesse:</label>
+      <input type="text" name="areainteresse" placeholder="Área de Interesse" maxlength="25" minlength="2" required />
+    </div>
+
+    <div>
+      <label for="file">Currículo (PDF):</label>
+      <input type="file" name="file" required />
+    </div>
+
+    <button type="submit" value="Enviar Curriculo">Enviar currículo</button>
+  </form>
+</body>
+
+</html>

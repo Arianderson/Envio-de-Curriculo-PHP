@@ -1,0 +1,80 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: Calibri, sans-serif;
+}
+
+body {
+  align-items: center;
+  /*background-color: #f7f7f7;*/
+  /*background-color: #F2F6FD;*/
+  /*background-image: linear-gradient(#204076, #F2F6FD);*/
+  background-color: #EEE;
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+  height: 100vh;
+  justify-content: center;
+}
+
+h1 {
+  /*color: #666;*/
+  color: #2020206a;
+}
+h2 {
+  /*color: #666;*/
+  color: #204076;
+  font-family: "Gabriola", Cursive;
+}
+
+form {
+  /*background: #38B2AC;*/
+  /*background: #B5CFE5;*/
+  /*background: #CDE0EF;*/
+  background: linear-gradient(145deg, #EAEAEA, #EEE);
+  border-radius: 5px;
+  /*box-shadow: 0 1px 2px #ccc;*/
+  box-shadow: 10px 10px 1px #008CBA inset, 10px 10px 1px #f44336, 10px 10px 2em #0004;
+  display: flex;
+  flex-direction: column;
+  gap: 1em;
+  margin: 0 10px;
+  padding: 6em;
+  width: 48em;
+}
+
+input, textarea, button{
+  background-color: #f7f7f7;
+  border: none;
+  border-radius: 5px;
+  color: #777;
+  font-size: 16px;
+  outline: none;
+  padding: 1em;
+  width: 100%;
+}
+
+#file-upload-button{
+	color: white;
+	transition-duration: 0.4s;
+}
+#file-upload-button:hover{
+	 background-color: #f7f7f7;
+}
+
+button {
+  /*color: #777;*/
+  color: #204076;
+  cursor: pointer;
+  font-weight: bold;
+  border: 2px solid #204076;
+  transition-duration: 0.3s;
+}
+button:hover {
+  color: #fff;
+  background-color: #008CBAaa;
+  box-shadow: 3px 3px 1px #C50110;
+  cursor: pointer;
+  font-weight: bold;
+}

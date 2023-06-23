@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Trabalhe conosco - Vila Velha Hospital</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+<!--Responsivo-->
+  <h1>Trabalhe conosco</h1>
+  <h2>Deixe seu curriculo!</h2>
+  <form target="_blank" action="action.php" method="POST" enctype="multipart/form-data">
+	<div>
+	<label for="name">Nome completo:</label>
+	<input type="text" name="name" placeholder="Nome completo" required />
+	</div>
+	
+	<div>
+	<label for="email">E-mail:</label>
+    <input type="email" name="email" placeholder="E-mail" required />
+	</div>
+	
+	<div>
+	<label for="area">Área desejada:</label>
+    <input type="area" name="area" placeholder="Área desejada" required />
+	</div>
+	
+	<div>
+	<label for="pdf">Currículo (PDF):</label>
+    <input type="file" name="pdf" required />
+	</div>
+	
+    <button type="submit" value="Enviar Curriculo">Enviar currículo</button>
+    
+    <input type="hidden" name="_subject" value="Novo Curriculo!" />
+    <input type="text" name="_honey" style="display:none" />
+    <input type="hidden" name="_captcha" value="false" />
+  </form>
+</body>
+</html>

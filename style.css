@@ -1,0 +1,90 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: Calibri, sans-serif;
+}
+
+body {
+  align-items: center;
+  /*background-color: #f7f7f7;*/
+  /*background-color: #F2F6FD;*/
+  /*background-image: linear-gradient(#204076, #F2F6FD);*/
+  background-image: url(../VVH/img/background_img.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  display: flex;
+  flex-direction: column;
+  gap: 0px;
+  height: 100vh;
+  justify-content: center;
+}
+
+h1 {
+  /*color: #666;*/
+  color: #202020a8;
+}
+
+h2 {
+  /*color: #666;*/
+  color: #031b36d8;
+  font-family: "Gabriola", Cursive;
+}
+
+form {
+  /*background: #38B2AC;*/
+  /*background: #B5CFE5;*/
+  /*background: #CDE0EF;*/
+  /*background: linear-gradient(145deg, #EAEAEA, #EEE);*/
+  background: #eeeeeebe;
+  border-radius: 5px;
+  /*box-shadow: 0 1px 2px #ccc;*/
+  box-shadow: 5px 5px 1px #f44336b6 inset, 5px 5px 1px #008bbaa9, #080808b6 4px 4px 30px;
+  ;
+  display: flex;
+  flex-direction: column;
+  gap: 1em;
+  margin: 0 10px;
+  padding: 6em;
+  width: 48em;
+}
+
+input,
+textarea,
+button {
+  background-color: #f7f7f7;
+  border: none;
+  border-radius: 5px;
+  color: #777;
+  font-size: 16px;
+  outline: none;
+  padding: 1em;
+  width: 100%;
+}
+
+#file-upload-button {
+  color: white;
+  transition-duration: 0.4s;
+}
+
+#file-upload-button:hover {
+  background-color: #f7f7f7;
+}
+
+button {
+  /*color: #777;*/
+  color: #204076;
+  cursor: pointer;
+  font-weight: bold;
+  border: 2px solid #204076;
+  transition-duration: 0.3s;
+}
+
+button:hover {
+  color: #fff;
+  background-color: #204076;
+  /*box-shadow: 3px 3px 1px #008CBA inset, 3px 3px 1px #C50110;*/
+  border: 2px solid #941d1d;
+  cursor: pointer;
+  font-weight: bold;
+}
